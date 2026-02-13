@@ -14,19 +14,20 @@ export const PortfolioProvider = ({ children }) => {
             email: 'mayurgbari52076@gmail.com',
             github: 'https://github.com/MayurBari52076',
             linkedin: 'https://www.linkedin.com/in/mayurbari52076/',
-            resume: 'https://drive.google.com/file/d/1pcuMFymN1oFQRN4NroAMKYEG-NR-9IUL/view?usp=drive_link',
+            resume: 'https://drive.google.com/file/d/1vU6ed46rO1ACxGvxpNeAkTQKSy986I_j/view?usp=drive_link',
         },
     });
 
     const [projects] = useState([
         {
-            id: 1,
-            title: 'Task Management App',
-            description: 'A productivity tool for users to track tasks efficiently.',
-            image: taskManagerImg,
-            link: '#',
-            tags: ['React', 'Node.js', 'MongoDB', 'Express', 'CSS', 'Vite'],
+              id: 1,
+              title: 'Tasks – Collaborative Task Management System',
+              description: 'A full-stack collaborative task management web application where users can create tasks and subtasks, invite collaborators via secure links, manage work with search, filter, sort, drag-and-drop ordering, and switch between dark/light mode.',
+              image: taskManagerImg,
+              link: 'https://tasks-ebon-one.vercel.app/',
+              tags: ['React', 'Vite', 'Node.js', 'Express.js', 'MongoDB Atlas', 'JWT', 'CSS'],
         },
+
         {
             id: 2,
             title: 'Image Resizer App',
@@ -37,12 +38,13 @@ export const PortfolioProvider = ({ children }) => {
         },
         {
             id: 3,
-            title: 'Recipe Finder App',
-            description: 'An app to search and discover recipes based on ingredients,add to favorite recipes.',
-            image: recipeFinderImg,
-            link: '#',
-            tags: ['React', 'Node.js', 'Express', 'MongoDB', 'API Integration', 'CSS', 'Vite'],
+            title: 'Smart Expense & Budget Planner',
+            description: 'A full-stack personal finance management app with authentication, expense tracking, category-based analytics, charts, monthly reports, CSV export, and persistent light/dark theming.',
+            image: expensePlannerImg,
+            link: 'https://smart-expense-planner-indol.vercel.app/',
+            tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT Auth', 'Charts', 'Vite', 'CSS'],        
         },
+
     ]);
 
     const [skills] = useState([
