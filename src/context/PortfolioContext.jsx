@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react';
 import taskManagerImg from './task_manager.jpg';
 import imageResizerImg from './image_resizer.png';
-import expensePlannerImg from "../assets/expensePlanner.png";
+import expensePlannerImg from "./expensePlanner.png";
 
 
 export const PortfolioContext = createContext();
