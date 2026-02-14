@@ -2,6 +2,7 @@ import React, { createContext, useState } from 'react';
 import taskManagerImg from './task_manager.jpg';
 import imageResizerImg from './image_resizer.png';
 // import expensePlannerImg from "./expensePlannerImg.png";
+import expensePlannerImg from "./expensePlannerImg.png";
 
 
 export const PortfolioContext = createContext();
@@ -41,7 +42,7 @@ export const PortfolioProvider = ({ children }) => {
             id: 3,
             title: 'Smart Expense & Budget Planner',
             description: 'A full-stack personal finance management app with authentication, expense tracking, category-based analytics, charts, monthly reports, CSV export, and persistent light/dark theming.',
-            image: "",
+            image: expensePlannerImg,
             link: 'https://smart-expense-planner-indol.vercel.app/',
             tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT Auth', 'Charts', 'Vite', 'CSS'],        
         },
